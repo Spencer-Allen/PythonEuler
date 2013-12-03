@@ -19,7 +19,6 @@ def find_largest_factor(input):
 			product = x * y
 			if test_palindrome(product) == True:
 				return product
-			print product
 			y = y - 1
 		x = x - 1
 
