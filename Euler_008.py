@@ -45,7 +45,7 @@ def greatestProductFinder(input):
 		product = x[a] * x[b] * x[c] * x[d] * x[e]
 		
 		if product > highestProduct:
-		  highestProduct = product
+			highestProduct = product
     	
 	print highestProduct
 
